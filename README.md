@@ -1,7 +1,7 @@
 # 🎯 Facial Recognition System using Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20-orange)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20-orange)https://github.com/jamesalwin1/Facial-Recognition-System/blob/main/README.md
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.6-red)
 
@@ -191,6 +191,8 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+Download the pre-trained model from the Google Drive link provided below and place it inside the `model` folder.
 
 Launch the notebook:
 
