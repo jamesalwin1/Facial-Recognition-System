@@ -13,6 +13,24 @@ The project is trained on the **Labeled Faces in the Wild (LFW)** dataset and de
 
 ---
 
+# 📑 Table of Contents
+
+- Overview
+- Features
+- Technologies Used
+- Dataset
+- Project Workflow
+- Model Architecture
+- Results
+- Screenshots
+- Project Structure
+- Installation
+- Pre-trained Model
+- Future Improvements
+- Author
+
+---
+
 # 🚀 Features
 
 - Face Detection using MTCNN
@@ -46,17 +64,14 @@ The project is trained on the **Labeled Faces in the Wild (LFW)** dataset and de
 
 **Dataset:** Labeled Faces in the Wild (LFW)
 
+The project uses 423 unique identities from the LFW dataset. Images are split into training and testing sets before model training and evaluation.
+
 The dataset contains facial images of people captured under different:
 
 - Pose
 - Lighting
 - Expression
 - Background
-
-For this implementation:
-
-- **423 unique identities** were used for training.
-- Each identity contains **5–20 facial images** after filtering.
 
 ---
 
@@ -118,7 +133,9 @@ Face Prediction
 | Classifier | SVM |
 | Accuracy | **21.28%** |
 
-Although the overall accuracy is **21.28%**, the model was trained on **423 different identities**, making the classification task significantly more challenging than models trained on smaller subsets of the dataset.
+The proposed facial recognition pipeline successfully detects faces, extracts discriminative facial embeddings, and classifies identities using a Support Vector Machine.
+
+Since the model is trained on **423 different identities**, the classification task is considerably more challenging than experiments using smaller subsets of the LFW dataset.
 
 ---
 
@@ -144,7 +161,6 @@ Facial-Recognition-System/
 ├── Facial_Recognition.ipynb
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 │
 ├── model/
 │   └── face_recognition_model.pkl
@@ -191,7 +207,7 @@ The trained model (`face_recognition_model.pkl`) is not included in this reposit
 Download it from Google Drive:
 
 **🔗 Google Drive:**  
-`https://drive.google.com/file/d/1KH1gC_CujIhtMqLhVHIoWiUgoveMxTa3/view?usp=drive_link`
+**[Download face_recognition_model.pkl](https://drive.google.com/file/d/1KH1gC_CujIhtMqLhVHIoWiUgoveMxTa3/view?usp=drive_link)**
 
 After downloading:
 
@@ -217,7 +233,11 @@ After downloading:
 
 B.Tech – Artificial Intelligence and Data Science
 
-GitHub: https://github.com/jamesalwin1
+**GitHub Profile:**  
+https://github.com/jamesalwin1
+
+**Project Repository:**  
+https://github.com/jamesalwin1/Facial-Recognition-System
 
 ---
 
