@@ -75,18 +75,6 @@ The dataset contains facial images of people captured under different:
 
 ---
 
-### Performance Evaluation
-
-The model was evaluated using the following metrics:
-
-- Overall Accuracy: **21.28%**
-- Classification Report (Precision, Recall, and F1-score)
-- Confusion Matrix
-
-The confusion matrix illustrates correct predictions as well as false positives and false negatives for each identity. Due to the large number of classes (423 identities) and variations in facial pose, lighting, and expression, some misclassifications are expected.
-
----
-
 # Project Workflow
 
 ```
@@ -162,6 +150,18 @@ Since the model is trained on **423 different identities**, the classification t
 ## Training Accuracy & Confusion Matrix
 
 ![Accuracy](screenshots/training_accuracy.png)
+
+---
+
+### Performance Evaluation
+
+The model was evaluated using the following metrics:
+
+- Overall Accuracy: **21.28%**
+- Classification Report (Precision, Recall, and F1-score)
+- Confusion Matrix
+
+The confusion matrix illustrates correct predictions as well as false positives and false negatives for each identity. Due to the large number of classes (423 identities) and variations in facial pose, lighting, and expression, some misclassifications are expected.
 
 ---
 
