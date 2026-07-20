@@ -1,11 +1,11 @@
-# 🎯 Facial Recognition System using Deep Learning
+# Facial Recognition System using Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20-orange)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.6-red)
 
-## 📖 Overview
+## Overview
 
 This project implements a **Facial Recognition System** using Deep Learning and Machine Learning techniques. The system detects human faces using **MTCNN**, extracts facial embeddings using **EfficientNetB0**, and recognizes identities using a **Support Vector Machine (SVM)** classifier.
 
@@ -13,7 +13,7 @@ The project is trained on the **Labeled Faces in the Wild (LFW)** dataset and de
 
 ---
 
-# 📑 Table of Contents
+# Table of Contents
 
 - Overview
 - Features
@@ -31,7 +31,7 @@ The project is trained on the **Labeled Faces in the Wild (LFW)** dataset and de
 
 ---
 
-# 🚀 Features
+# Features
 
 - Face Detection using MTCNN
 - Deep Feature Extraction using EfficientNetB0
@@ -45,7 +45,7 @@ The project is trained on the **Labeled Faces in the Wild (LFW)** dataset and de
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -75,7 +75,7 @@ The dataset contains facial images of people captured under different:
 
 ---
 
-# 🔄 Project Workflow
+# Project Workflow
 
 ```
 LFW Dataset
@@ -105,7 +105,7 @@ Face Prediction
 
 ---
 
-# 🧠 Model Architecture
+# Model Architecture
 
 ### Face Detection
 
@@ -121,7 +121,7 @@ Face Prediction
 
 ---
 
-# 📊 Results
+# Results
 
 ### Training Configuration
 
@@ -139,7 +139,7 @@ Since the model is trained on **423 different identities**, the classification t
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ## Prediction Demo
 
@@ -172,7 +172,7 @@ Facial-Recognition-System/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 ## Clone Repository
 
@@ -202,7 +202,7 @@ jupyter notebook Facial_Recognition.ipynb
 
 ---
 
-# 📥 Pre-trained Model
+# Pre-trained Model
 
 The trained model (`face_recognition_model.pkl`) is not included in this repository because it exceeds GitHub's file size limit.
 
@@ -219,7 +219,7 @@ After downloading:
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Real-time webcam recognition
 - Unknown face recognition
