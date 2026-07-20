@@ -1,8 +1,10 @@
 # 🎯 Facial Recognition System using Deep Learning
 
-<p align="center">
-  <img src="screenshots/prediction_demo.png" width="850">
-</p>
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20-orange)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.6-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## 📖 Overview
 
