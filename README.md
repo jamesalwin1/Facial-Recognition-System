@@ -4,7 +4,6 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20-orange)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.6-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## 📖 Overview
 
