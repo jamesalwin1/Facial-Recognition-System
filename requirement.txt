@@ -1,0 +1,10 @@
+tensorflow==2.20.0
+tensorflow-hub==0.16.1
+mtcnn==1.0.0
+opencv-python==4.13.0.88
+numpy==2.0.2
+matplotlib==3.10.5
+scikit-learn==1.6.1
+Pillow==11.3.0
+joblib==1.5.2
+jupyter==1.1.1
